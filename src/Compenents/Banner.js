@@ -26,14 +26,12 @@ const Banner = () => {
     <div>
       <div className="position-relative">
         <HomeSlider />
-
-        <SearchLocation />
+         <SearchLocation />
       </div>
 
       <div className="container">
         <Bestdeals />
-
-        <div className="">
+       <div className="">
           <div className="row p-0">
             <div className="col-sm-6 ps-0">
               <LocationType />
@@ -43,7 +41,6 @@ const Banner = () => {
             </div>
           </div>
         </div>
-
         <div className="row align-items-end ">
           <div className="col-sm-6">
             <h1 className="top-heading-section mt-5 mb-2 text-start">
